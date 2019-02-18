@@ -1,0 +1,14 @@
+name: jam_dart_interfaces
+description: A library of interfaces for all jamstation dart apps
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  meta: ^1.1.6
+  jam_dart_models:
+    path: ../models
+  rxdart: ^0.18.0
+
+dev_dependencies:
